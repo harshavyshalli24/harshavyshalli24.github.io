@@ -1,0 +1,164 @@
+<html>
+    <style>
+        body{
+            padding: 2%;
+            animation: fadeIn 3.5s;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(5, 5, 39);
+           }
+
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            transition: 0.6s;
+
+        }
+
+        li a:hover {
+            background-color:rgb(5, 5, 73);
+            transition: 0.6s;
+        }
+
+        .active{
+            background-color:rgb(5, 5, 73);
+        }
+
+        .button1{
+            background-color: rgb(0, 0, 0);
+            height: 50px;
+            width: 70px;
+            border-radius:10px;
+            color:white;
+            font-size: 15px;
+            border: 2px solid rgb(0, 97, 65)
+        }
+        .inputer{
+            background-color: whitesmoke;
+            height:50px;
+            width:200px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border:10px solid rgb(5, 5, 39);
+            border-radius: 10px;
+            color:rgb(165, 165, 165);
+            font-size: 20px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        .leftcolumn{
+            width:80%;
+            float: left;
+
+        }
+
+
+        .post{
+
+            background-color:rgb(39, 38, 38);
+            color:whitesmoke;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding:2%;
+
+        }
+
+        .rightcolumn{
+            width:18%;
+            float:right;
+
+        }
+
+    </style>
+    <body background="blockchain-background.jpg" >
+        <img src="blogchainposter.png" height="70%" width="100%">
+        <div class="slide-In">
+        
+            <li><a class="active" >Home</a></li>
+            <li><a href="DigitalSynopsisPage.html">Detailed Synopsis</a></li>
+            <li><a href="ReferencePage.html" >References</a></li>
+            <li><a href="ContactPage.html" >Contact</a></li>
+            <li style="float:right;"><button class="button1">GO!</button></li>
+            <li style="float: right;"><input class="inputer" value="Search"></li>
+
+        </div>
+        <br>
+        <div class="leftcolumn">
+            <div class="post">
+                <h2>If you’re just getting started and want to learn a little more about the subject, check out the list about data science</h2>
+                <p><b>Wednesday,2nd October,2019</b></p>
+                <hr>
+                <img src="C:\Users\Administrator\Desktop\htmlProject\dataScience1.png" width="100%">
+                <p>While sports analytics is hardly a new idea, how it is being used in hockey has changed dramatically.
+				   Coaches no longer have to wait for newspapers to print out statistics.Fans are not left to wonder how their 
+				   favorite players are truly excelling. What has brought about this change? Big data.</p>
+                <p>Big data has taken all forms of sports analytics by storm, but we are only now really beginning to see what it can do for hockey.
+				   Data tracking technology has taken the work from the analysts, giving you statistics in real time. This is what we know.</p>
+                <p>Read more at <a href="https://www.smartdatacollective.com/big-data-in-hockey-takes-sport-by-storm/">here</a>.</p>
+                </div>
+             <br>
+             <br>
+             <div class="post">
+                 <h2>Artificial Intelligence and Big Data in Higher Education: Promising or Perilous?</h2>
+                 <p><b>Thursday,4th October 2019</b></p>
+                 <hr>
+                 <img src="dataScience2.jpg" width="100%">
+                 <p>“Colleges Mine Data on Their Applicants”, says the Wall Street Journal in an article on the way some universities
+				    are using AI and machine learning to determine prospective students’ level of interest in their institution.
+					Individuals ‘demonstrated interest’ was inferred based on their interactions with university websites, social media posts
+					and emails. Thousands of data points on each student are being used to assess admission applications.</p>
+                 <p>The collection of Big Data on a students’ educational and professional background, combined with his/her digital
+				    footprint allows the intelligent machine to suggest the best development path. Each student at any given moment can
+					make a decision on their next educational steps based on recommendations that take into account their digital footprint,
+					that of other students and the educational content available to them.</p>
+                  <p>Click <a href="https://www.smartdatacollective.com/artificial-intelligence-and-big-data-in-higher-education-promising-or-perilous/">here</a> for full article.</p>
+             </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="post">
+                <p><b>Check what the Indian Government had to say about Block chain</b></p>
+                <hr>
+                <img src="modi.png" width="100%">
+                <br>
+                <br>
+                <a href="https://www.coindesk.com/indias-national-payments-corporation-wants-to-build-a-blockchain-solution"><p style="font-size: 10px"> &nbsp; Click to know more ></p></a>
+
+            </div>
+            <br>
+            <div class="post">
+                <p><b>Bitcoin Live Rate:</b></p>
+                <p>$10,289.79</p>
+                <p><b>Ethereum Live Rate:</b></p>
+                <p>$180.32</p>
+                <p><b>Litecoin Live Rate:</b></p>
+                <p>$300.82</p>
+                <img src="graph.png" width="100%">
+                <br>
+                <br>
+                <img src="graph2.png" width="100%">
+            </div>
+            <br>
+            <div class="post">
+                <p><b>New to Data Science?</b></p>
+                <p> Click here to learn about Data Science from Scratch</p>
+               <a href="DigitalSynopsisPage.html"><button class="button1" style="position: relative; left:30%;" >Click Here</button></a>
+                <br>
+                <br>
+            </div>
+        </div>
+    </body>
+
+</html>
