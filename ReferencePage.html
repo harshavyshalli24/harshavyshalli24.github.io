@@ -154,14 +154,20 @@
                 <p><b>Attach your article and fill up the form and we'll post your stuff onto here</b></p>
                 <hr>
                 <form>
-                    <p>Name:</p><input class="inputer2">
-                    <p>Email:</p><input class="inputer2" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" value= abc@gmail.com >
+                    <p>Name:</p><input class="inputer2" required>
+                    <p>Email:</p><input class="inputer2" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" value= abc@gmail.com required >
                     <br>
                     <br>
                     <input type="file" name="myfile" class="inputer3">
-                    <input type="submit" name="save" value="submit" class="button1">
+                    <input type="submit" name="save" value="submit" class="button1" onclick=myfunction()>
                     
                     <hr>
+                    <script>
+                            function myfunction()
+                        {
+                            alert("Thank you for your idea!")
+                        }
+                    </script>
                     <p style="font-size:30px;">Rules to be followed:</p>
                     <p>1. The file should be of the formats .pdf, .docx or .doc.</p>
                     <p>2. If the give email ID has proved to be invalid the article shall not be posted.</p>
